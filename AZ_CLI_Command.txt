@@ -1,0 +1,7 @@
+azure CLI commnad line use
+
+az login - Use for login azure account
+az --help - form help
+az account list --output table - see the account list in table format
+az group create --location or -l eastus (location name) --name or -n (rg name) - Resource group creation
+az storage account create -n japanstg -g new_japan -l japaneast --sku Standard_LRS --kind Storagev2 --access-tier Hot - Storage account creation
